@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Foursquare api</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<br/><br/><br/><br/>
+<center>
+<form method="post" action="/search">
+<label for="lat" class="col-md-3">Latitude</label>
+<input type="text" name="lat" id="lat" class="col-md-5 col-md-offset-2"/><br/><br/>
+<label for="lon" class="col-md-3">Longitutde</label>
+<input type="text" name="lon" id="lon" class="col-md-5 col-md-offset-2"/><br/><br/>
+<label for="keyword" class="col-md-3">Keyword</label>
+<input type="text" name="keyword" id="keyword" class="col-md-5 col-md-offset-2"/><br/><br/><br/>
+<label for="srch" class="col-md-3">Search/Explore</label>
+<select name="srch" id="srch" class="col-md-5 col-md-offset-2">
+<option value="1">search</option>
+<option value="2">explore</option>
+</select>
+<br/><br/><br/>
+<input type="submit" value="submit" class="col-md-2 col-md-offset-5 btn btn-primary">
+</form>
+</center>
+</body>
+</html>
